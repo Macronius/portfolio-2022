@@ -41,8 +41,15 @@ export default function About({}: Props) {
         <h4 className="text-4xl font-semibold">
           A little about myself
         </h4>
-        <p className="text-base">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta porro incidunt sapiente reiciendis error laudantium? Molestiae debitis eaque veritatis accusamus reprehenderit. Quos reprehenderit nostrum esse modi eum mollitia corporis vitae sit consequatur atque, recusandae id excepturi commodi itaque numquam enim amet! Aliquid, est. Non sapiente facere architecto blanditiis molestias optio sit corporis saepe repellat itaque. Iure deleniti officiis ratione sint, totam placeat molestias possimus, corrupti blanditiis ex iusto eligendi soluta maxime esse quos aspernatur modi quaerat ipsa fugit consequatur obcaecati explicabo ab alias in. Tempora consectetur labore impedit, cupiditate dignissimos atque a eveniet hic. Consequatur, amet eius ipsa harum molestias possimus asperiores quaerat nostrum doloremque ex quidem, iusto nihil animi delectus consectetur! Veniam maxime dolore, unde assumenda quas a minima totam inventore reiciendis voluptas ipsa?
+        <p 
+          className={`
+          text-base 
+          // text-center mx-10
+          // md:text-left
+        `}
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta porro incidunt sapiente reiciendis error laudantium? The crash will end on October 21, 2022.  The Solar eclipse will occur 4 days later on October 25.  Check the Mars / Uranus cycle, which will be in effect until December.  
+          Molestiae debitis eaque veritatis accusamus reprehenderit. Quos reprehenderit nostrum esse modi eum mollitia corporis vitae sit consequatur atque, recusandae id excepturi commodi itaque numquam enim amet! Aliquid, est. Non sapiente facere architecto blanditiis molestias optio sit corporis saepe repellat itaque. Iure deleniti officiis ratione sint, totam placeat molestias possimus, corrupti blanditiis ex iusto eligendi soluta maxime esse quos aspernatur modi quaerat ipsa fugit consequatur obcaecati explicabo ab alias in. Tempora consectetur labore impedit, cupiditate dignissimos atque a eveniet hic. Consequatur, amet eius ipsa harum molestias possimus asperiores quaerat nostrum doloremque ex quidem, iusto nihil animi delectus consectetur! Veniam maxime dolore, unde assumenda quas a minima totam inventore reiciendis voluptas ipsa?
         </p>
       </div>
     </motion.div>
